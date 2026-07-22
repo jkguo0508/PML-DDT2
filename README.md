@@ -1,12 +1,15 @@
 ## Reproducibility: Full Implementation Configurations
 
-The thresholds follow the **linear schedule** of Eqs. (12)–(13): starting from $(\tau_{\text{upper-init}}, \tau_{\text{lower-init}})$, they are updated every $n$ epochs by a fixed step until epoch $T_{\text{max}}$, reaching $(\tau_{\text{upper-final}}, \tau_{\text{lower-final}})$.
+The thresholds follow the **linear schedule** of Eqs. (12)–(13): starting from $(\tau_{\text{upper}}^{\text{init}}, \tau_{\text{lower}}^{\text{init}})$, they are updated every $n$ epochs by a fixed step until epoch $T_{\text{max}}$, reaching $(\tau_{\text{upper}}^{\text{final}}, \tau_{\text{lower}}^{\text{final}})$.
+
 
 
 ### PASCAL VOC
 
-| Noise rate | Init $\tau_{\text{up}}$ | Init $\tau_{\text{low}}$ | Threshold update epochs | ASL ($\gamma^-$) |
-|---|---|---|---|---|
+
+| Noise rate | Init $\tau_{\text{upper}}^{\text{init}}$ | Init $\tau_{\text{lower}}^{\text{init}}$ | Threshold update epochs | ASL ($\gamma^-$) |
+| :--- | :--- | :--- | :--- | :--- |
+
 | 0.1 | 0.9 | 0.0 | 60 | 5
 | 0.2 | 0.9 | 0.0 | 60 | 5
 | 0.4 | 0.9 | 0.0 | 60 | 4
@@ -15,8 +18,10 @@ The thresholds follow the **linear schedule** of Eqs. (12)–(13): starting from
 
 ### MS-COCO
 
-| Noise rate | Init $\tau_{\text{up}}$ | Init $\tau_{\text{low}}$ | Threshold update epochs | ASL ($\gamma^-$) |
-|---|---|---|---|---|
+
+| Noise rate | Init $\tau_{\text{upper}}^{\text{init}}$ | Init $\tau_{\text{lower}}^{\text{init}}$ | Threshold update epochs | ASL ($\gamma^-$) |
+| :--- | :--- | :--- | :--- | :--- |
+
 | 0.1 | 0.8 | 0.0 | 30 | 5
 | 0.2 | 0.8 | 0.0 | 30 | 5
 | 0.4 | 0.8 | 0.0 | 30 | 4
@@ -25,8 +30,10 @@ The thresholds follow the **linear schedule** of Eqs. (12)–(13): starting from
 
 ### NUS-WIDE
 
-| Noise rate | Init $\tau_{\text{up}}$ | Init $\tau_{\text{low}}$ | Threshold update epochs | ASL ($\gamma^-$) |
-|---|---|---|---|---|
+
+| Noise rate | Init $\tau_{\text{upper}}^{\text{init}}$ | Init $\tau_{\text{lower}}^{\text{init}}$ | Threshold update epochs | ASL ($\gamma^-$) |
+| :--- | :--- | :--- | :--- | :--- |
+
 | 0.1 | 0.8 | 0.0 | 30 | 5
 | 0.2 | 0.8 | 0.0 | 30 | 5
 | 0.4 | 0.8 | 0.0 | 30 | 4
