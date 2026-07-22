@@ -7,8 +7,8 @@ The thresholds follow the **linear schedule** of Eqs. (12)–(13): starting from
 ### PASCAL VOC
 
 
-| Noise rate | Init $\tau_{\text{upper}}^{\text{init}}$ | Init $\tau_{\text{lower}}^{\text{init}}$ | Threshold update epochs | ASL ($\gamma^-$) |
-| :--- | :--- | :--- | :--- | :--- |
+| Noise rate | $\tau_{\text{upper}}^{\text{init}}$ | $\tau_{\text{lower}}^{\text{init}}$ | Threshold update epochs | ASL ($\gamma^-$) |
+|---|---|---|---|---|
 
 | 0.1 | 0.9 | 0.0 | 60 | 5
 | 0.2 | 0.9 | 0.0 | 60 | 5
@@ -19,8 +19,8 @@ The thresholds follow the **linear schedule** of Eqs. (12)–(13): starting from
 ### MS-COCO
 
 
-| Noise rate | Init $\tau_{\text{upper}}^{\text{init}}$ | Init $\tau_{\text{lower}}^{\text{init}}$ | Threshold update epochs | ASL ($\gamma^-$) |
-| :--- | :--- | :--- | :--- | :--- |
+| Noise rate | $\tau_{\text{upper}}^{\text{init}}$ | $\tau_{\text{lower}}^{\text{init}}$ | Threshold update epochs | ASL ($\gamma^-$) |
+| :---: | :---: | :---: | :---: | :---: |
 
 | 0.1 | 0.8 | 0.0 | 30 | 5
 | 0.2 | 0.8 | 0.0 | 30 | 5
@@ -31,9 +31,8 @@ The thresholds follow the **linear schedule** of Eqs. (12)–(13): starting from
 ### NUS-WIDE
 
 
-| Noise rate | Init $\tau_{\text{upper}}^{\text{init}}$ | Init $\tau_{\text{lower}}^{\text{init}}$ | Threshold update epochs | ASL ($\gamma^-$) |
-| :--- | :--- | :--- | :--- | :--- |
-
+| Noise rate | $\tau_{\text{upper}}^{\text{init}}$ | $\tau_{\text{lower}}^{\text{init}}$ | Threshold update epochs | ASL ($\gamma^-$) |
+| :---: | :---: | :---: | :---: | :---: |
 | 0.1 | 0.8 | 0.0 | 30 | 5
 | 0.2 | 0.8 | 0.0 | 30 | 5
 | 0.4 | 0.8 | 0.0 | 30 | 4
